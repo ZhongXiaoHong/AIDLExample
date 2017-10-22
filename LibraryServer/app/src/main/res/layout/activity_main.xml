@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.silang.libraryserver.MainActivity">
+
+    <TextView
+      android:textColor="#ffff"
+        android:textSize="20sp"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="这是图书馆信息查询服务中心，能够提供以下查询：
+
+1.根据查询图书信息
+
+2.获取全馆图书列表"
+         />
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context="com.silang.client.MainActivity">
+    <EditText
+        android:background="@drawable/red_rect"
+        android:textColor="#ff00"
+        android:hint="输入要查询的书籍名字"
+        android:textColorHint="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/editText" />
+
+    <TextView
+        android:background="#ff00"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="查询"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:id="@+id/checkBookInfo"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="24dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <EditText
+        android:background="@drawable/red_rect"
+        android:textColor="#ff00"
+        android:hint="点击下方“图书列表”按钮，获取所有图书列表"
+        android:textColorHint="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/editText2"
+        android:layout_below="@+id/checkBookInfo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:background="#ff00"
+        android:textColor="#ffff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="图书列表"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:id="@+id/getBookList"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignLeft="@+id/checkBookInfo"
+        android:layout_alignStart="@+id/checkBookInfo" />
+
+</RelativeLayout>
